@@ -1,0 +1,82 @@
+*{
+    margin: 1px;
+    padding: 1px;
+    font-family: cursive;
+    background-image: url(morado.jpg);
+}
+header{
+    background-color: #35165d;
+    font-size: 50px;
+    text-align: left;
+    color: white;
+}
+nav{
+    position: fixed;
+    height: 80px;
+    overflow: hidden;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+    
+}
+a{
+    margin: 30px;
+    font-size: 30px;
+    color: white;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    text-decoration: 0px;
+}
+.buscar{
+    position: absolute;
+    padding: 5px;
+    top: 50%;
+    left: 40%;
+    
+}
+.buscar input{
+    width: 0px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: white;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+    
+    
+}
+.btn{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    line-height: 55px;
+    background: #35165d;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.buscar:hover input{
+    width: 240px;
+    
+}
+.buscar input:focus{
+    width: 240px;
+    
+}
+p{
+    background-color: rgba(0, 0, 0, 0.494);
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    top: 30%;
+
+}

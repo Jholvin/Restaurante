@@ -1,0 +1,16 @@
+*{
+    background-image: url(morado.jpg);
+    font-family: cursive;
+    color: white;
+}
+a{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+    left: 45%;
+}
+h1,h2{
+    font-size: 60px;
+    text-align: center;
+    
+}
